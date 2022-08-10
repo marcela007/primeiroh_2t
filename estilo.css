@@ -1,13 +1,35 @@
 body {
-  background-color: rgb(255, 0, 0)
+  background-color: skyblue;
 }
 h1 {
   text-align: center;
 }
 .menuPrincipal {
-   position: relative;
+   position: absolute;
+   top: 0;
+   left: 0;
    width: 100%;
-   height: 100px;
-   background: rgb(25, 255, 148);
+   height: 45px;
+   background: blueviolet;
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav ul{
+  list-style: none ;
+  margin: 0;
+  padding: 0;
+  overflow: 0;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: yellowgreen;
+  text-align: center;
+  padding: 14px 16x;
+  text-decoration: none;
+}
+li a:hover {
+  color: hotpink;
+  background: black;
 }
