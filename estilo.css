@@ -1,5 +1,6 @@
 body {
-  background-color: rgb(187, 187, 185)
+  background-color: rgb(187, 187, 185);
+  margin: 0%;
 }
 h1 {
   text-align: center;
@@ -10,7 +11,7 @@ h1 {
    left: 0;
    width: 100%;
    height: 45px;
-   background: rgb(37, 54, 41);
+   background: rgb(104, 29, 35);
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 nav ul {
@@ -24,14 +25,14 @@ li {
 }
 li a {
   display: block;
-  color: rgb(255, 255, 255);
+  color: rgb(175, 206, 197);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 li a:hover {
-   color: black;
-   background: rgb(156, 228, 212);
+   color: rgb(209, 238, 78);
+   background: rgb(16, 100, 13);
 }
 #galinha {
   width: 10%;
@@ -44,9 +45,22 @@ li a:hover {
   height: 155px;
   background: blue;
   margin: 50px;
-  border-color: violet;
   border-width: 20px;
+  border-color: violet;
   border-style: solid;
-  padding: flex;
+  padding: 20px;
+  display: flex;
   justify-content: center;
+}
+.rodape {
+  position: absolute;
+  bottom: 99%;
+  width: 100%;
+  height: 10px;
+  background: blue;
+  color: aquamarine;
+}
+.conteudo {
+  position: absolute;
+  top: 0%;
 }
