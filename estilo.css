@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(151, 138, 135);
+  background-color: rgb(241, 204, 92);
   margin: 0%;
 }
 h1 {
@@ -106,3 +106,10 @@ h1 {
   display: flex;
   justify-content: center;
   text-align: absolute
+}
+
+h3 {
+  position: absolute;
+  top: 50px;
+  margin: 0 auto;
+}
